@@ -59,7 +59,7 @@ This section confirms that you followed the course AI workflow before and while 
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. |Not Applicable| Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
+| I read the relevant workflow before using AI. |Yes| Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
 | I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |Yes| Briefly explain how you used or followed it : ใช้ AI ในการ code review แล้วก็หาจุดที่ผิดพลาด|
 | I wrote my own problem understanding before asking AI for help. |Yes| Briefly say where you wrote it, such as `submission.md` or private note : In the submission.md|
 | I wrote my own first plan before asking AI for help. |Yes| Briefly say where you wrote it : in the submission.md |
