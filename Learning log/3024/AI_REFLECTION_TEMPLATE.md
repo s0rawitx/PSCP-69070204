@@ -63,7 +63,7 @@ This section confirms that you followed the course AI workflow before and while 
 | I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |Yes| Briefly explain how you used or followed it : ใช้ AI ในการ code review แล้วก็หาจุดที่ผิดพลาด|
 | I wrote my own problem understanding before asking AI for help. |Yes| Briefly say where you wrote it, such as `submission.md` or private note : In the submission.md|
 | I wrote my own first plan before asking AI for help. |Yes| Briefly say where you wrote it : in the submission.md |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |Yes| Briefly explain : ช่วยให้ AI อธิบายวิธีการหา mid กับ minimum และ Debugg code|
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |Yes| Briefly explain : ช่วยให้ AI อธิบายวิธีการหา mid กับ minimum และ Debug code|
 
 If you answered "No" to any item, explain why:
 
