@@ -1,38 +1,38 @@
-# AI Reflection
+# บันทึก Reflection การใช้ AI
 
-Use this file only when AI was used on a learning-log-required OJ problem.
+ใช้ไฟล์นี้เฉพาะเมื่อมีการใช้ AI กับโจทย์ OJ ที่เป็น learning-log-required เท่านั้น
 
-Copy this template and rename the file as:
+ให้ copy template นี้ แล้วเปลี่ยนชื่อไฟล์เป็น:
 
 ```text
 ai_reflection.md
 ```
 
-Write this reflection in your own words.
+เขียน reflection นี้ด้วยคำพูดของตนเอง
 
-Do not paste the full AI conversation.
+ห้ามวาง AI conversation ทั้งหมด
 
-Do not ask AI to write this reflection for you.
+ห้ามให้ AI เขียน reflection นี้แทนคุณ
 
-AI may help check grammar, formatting, or clarity after you have already written your own reflection.
+AI อาจช่วยตรวจ grammar, formatting หรือความชัดเจนได้ หลังจากที่คุณเขียน reflection ของตนเองแล้ว
 
 ---
 
-## 1. OJ Information
+## 1. ข้อมูล OJ
 
 | Item | Answer |
 |---|---|
-| OJ problem number/title |[LEARNING LOGS] ปราสาท (3036)|
-| OJ submission ID, if submitted |558645|
-| OJ status |Pass|
+| OJ problem number/title | OJ3036 - ปราสาท |
+| OJ submission ID, if submitted | 558645 |
+| OJ status | Pass |
 
 ---
 
-## 2. AI Tool Used
+## 2. เครื่องมือ AI ที่ใช้
 
-Write the AI tool or tools that you used.
+เขียนชื่อเครื่องมือ AI ที่ใช้
 
-Examples:
+ตัวอย่าง:
 
 ```text
 ChatGPT
@@ -51,120 +51,120 @@ Gemini
 
 ---
 
-## 3. Required Course AI Policy Check
+## 3. การตรวจสอบนโยบายการใช้ AI ของรายวิชา
 
-Answer this section honestly.
+ตอบหัวข้อนี้อย่างซื่อสัตย์
 
-This section confirms that you followed the course AI workflow before and while using AI.
+หัวข้อนี้ยืนยันว่าคุณได้ทำตาม AI workflow ของรายวิชาก่อนและระหว่างใช้ AI
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. |Yes| Example: `workflows/STUDENT_WORKFLOW_WEB_CHAT.md`, `workflows/STUDENT_WORKFLOW_CHATGPT_CODEX.md`, `workflows/STUDENT_WORKFLOW_CLAUDE_CODE.md`, or another workflow announced by the instructor |
-| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. |Yes| Briefly explain how you used or followed it : ให้ AI ช่วยอธิบายปัญหาให้เข้าใจได้มากขึ้นและช่วยให้ชี้ให้เห็นความสัมพันธ์ระหว่างแถวและสูตรการคำนวณ |
-| I wrote my own problem understanding before asking AI for help. |Yes| Briefly say where you wrote it, such as `submission.md` or private note : In submission.md|
-| I wrote my own first plan before asking AI for help. |Yes| Briefly say where you wrote it : เขียน if else แล้วนับแต่ละช่องว่าอันไหนน้อยสุด(ไม่ได้ผลเพราะพึ่งเห็นว่า n มากสุดคือ 1 แสนตัว)|
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. |Yes| Briefly explain : เขียนโค้ดมาแล้วแต่รันแล้วคำตอบยังผิดอยู่เลยให้มันช่วยดูว่าตรงไหนผิด|
+| I read the relevant workflow before using AI. | Yes |  |
+| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes |  |
+| I wrote my own problem understanding before asking AI for help. | Yes |  |
+| I wrote my own first plan before asking AI for help. | Yes |  |
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes |  |
 
-If you answered "No" to any item, explain why:
+ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
 ```text
--
+
 ```
 
 ---
 
-## 4. What I Asked AI to Help With
+## 4. ฉันถาม AI ให้ช่วยอะไร
 
-Describe briefly what you asked AI to help with.
+อธิบายสั้น ๆ ว่าถาม AI ให้ช่วยเรื่องอะไร
 
-Do not paste the full chat log.
+ห้ามวาง chat log ทั้งหมด
 
-Examples:
+ตัวอย่าง:
 
-- I asked AI to explain the problem in simpler words.
-- I asked AI to review my first plan.
-- I asked AI to help find a bug in my code.
-- I asked AI to suggest test cases.
-- I asked AI to explain why my output was different from the expected output.
+- ฉันถาม AI ให้ช่วยอธิบายโจทย์ด้วยภาษาที่เข้าใจง่ายขึ้น
+- ฉันถาม AI ให้ช่วย review แผนแรกของฉัน
+- ฉันถาม AI ให้ช่วยหา bug ใน code
+- ฉันถาม AI ให้ช่วยเสนอ test cases
+- ฉันถาม AI ให้อธิบายว่าทำไม output ของฉันต่างจาก expected output
 
 My answer:
 
 ```text
-1.ให้มันช่วยอธิบายโจทย์ให้เข้าใจได้มากขึ้น
-2.ช่วยให้มันชี้ให้เห็นความสัมพันธ์ระหว่าง row
-3.ช่วยให้มันคิดสูตรในการคำนวณหาช่องเดิน
-4.ช่วยให้มัน debug โค้ดให้
+1.ให้ AI ช่วยอธิบายโจทย์ให้เข้าใจได้มากขึ้น
+2.ช่วยให้ AI ชี้ให้เห็นความสัมพันธ์ระหว่าง row
+3.ช่วยให้ AI คิดสูตรในการคำนวณหาช่องเดิน
+4.ช่วยให้ AI debug โค้ดให้
 ```
 
 ---
 
-## 5. What AI Helped Me Notice
+## 5. AI ช่วยให้ฉันสังเกตอะไร
 
-Write what AI helped you notice.
+เขียนว่า AI ช่วยให้คุณสังเกตอะไร
 
-Examples:
+ตัวอย่าง:
 
-- a misunderstanding in the problem,
-- a missing condition,
-- a bug in input reading,
-- an edge case,
-- a Python syntax issue,
-- an output formatting problem.
+- ความเข้าใจผิดเกี่ยวกับโจทย์
+- condition ที่ขาดไป
+- bug ในการอ่าน input
+- edge case
+- ปัญหา syntax ของ Python
+- ปัญหา output formatting
 
 My answer:
 
 ```text
-1.ความสัมพันธ์ของแถวและสามเหลี่ยมหงายกับสามเหลี่ยมคว้ำ
-2.Syntax การหารเลข
+AI ช่วยให้ฉันเห็นว่าถ้าใส่วงเล็บในการคูณผิดคำตอบก็จะผิด
 ```
 
 ---
 
-## 6. What I Checked or Changed by Myself
+## 6. ฉันตรวจสอบหรือแก้อะไรด้วยตนเอง
 
-Write what you verified, tested, or changed by yourself after receiving AI help.
+เขียนว่าหลังจากได้รับความช่วยเหลือจาก AI คุณตรวจสอบ ทดสอบ หรือแก้อะไรด้วยตนเอง
 
-Examples:
+ตัวอย่าง:
 
-- I checked the input format again in the OJ problem.
-- I tested the code in VS Code.
-- I compared expected output and actual output.
-- I changed the loop condition by myself.
-- I rejected one AI suggestion because it did not match the problem constraints.
-- I simplified the AI suggestion into code that I understood.
+- ฉันตรวจ input format ใน OJ problem อีกครั้ง
+- ฉันทดสอบ code ใน VS Code
+- ฉันเปรียบเทียบ expected output กับ actual output
+- ฉันแก้ loop condition ด้วยตนเอง
+- ฉันไม่ใช้บางคำแนะนำของ AI เพราะไม่ตรงกับ constraints ของโจทย์
+- ฉันปรับคำแนะนำของ AI ให้เป็น code ที่ฉันเข้าใจเอง
 
 My answer:
 
 ```text
-เขียนโค้ดเองและเอาคำอธิบายของ AI มาทำความเข้าใจในภาษาตัวเอง
+ฉันเขียน code เองและนำคำอธิบายของ AI มาแปลเป็นภาษาของตัวเอง
+
 ```
 
 ---
 
-## 7. What I Learned
+## 7. ฉันได้เรียนรู้อะไร
 
-Write 2-4 sentences about what you learned from this problem and from the AI-assisted process.
+เขียน 2-4 ประโยคเกี่ยวกับสิ่งที่ได้เรียนรู้จากโจทย์นี้และจากกระบวนการใช้ AI ช่วย
 
-Focus on your own learning.
+ให้เน้นการเรียนรู้ของตนเอง
 
-Do not write only "I learned coding" or "AI helped me."
+ห้ามเขียนแค่ว่า "I learned coding" หรือ "AI helped me."
 
 My answer:
 
 ```text
-ช่วยให้เห็นวิธีแก้ปัญหาโดยใช้ความสัมพันธ์ทางคณิตศาสตร์และทำให้เห็นถึงความสำคัญของวงเล็บเวลาคูณเลขหรือหารเลขโดยใช้ python
+ฉันได้เรียนรู้วิธีแก้ปัญหาโดยใช้ความสัมพันธ์ทางคณิตศาสตร์และทำให้เห็นถึงความสำคัญของวงเล็บเวลาคูณเลขหรือหารเลขโดยใช้ python
 ```
 
 ---
 
-## 8. Student Declaration
+## 8. คำรับรองของนักศึกษา
 
-Answer honestly.
+ตอบอย่างซื่อสัตย์
 
 | Statement | Yes / No |
 |---|---|
-| I wrote this reflection in my own words. |Yes|
-| This reflection describes my real AI use. |Yes|
-| I checked AI's suggestions before using them. |Yes|
-| I can explain my final code. |Yes|
-| I did not ask AI to write this reflection for me. |Yes|
+| I wrote this reflection in my own words. | Yes |
+| This reflection describes my real AI use. | Yes |
+| I checked AI's suggestions before using them. | Yes |
+| I can explain my final code. | Yes |
+| I did not ask AI to write this reflection for me. | Yes |
