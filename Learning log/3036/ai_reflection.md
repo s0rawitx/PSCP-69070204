@@ -59,11 +59,11 @@ Gemini
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. | Yes |  |
-| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes |  |
-| I wrote my own problem understanding before asking AI for help. | Yes |  |
-| I wrote my own first plan before asking AI for help. | Yes |  |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes |  |
+| I read the relevant workflow before using AI. | Yes |`workflows/STUDENT_WORKFLOW_WEB_CHAT.th.md`|
+| I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes |ให้ AI ช่วยอธิบายปัญหาให้เข้าใจได้มากขึ้นและช่วยให้ชี้ให้เห็นความสัมพันธ์ระหว่างแถวและสูตรการคำนวณ|
+| I wrote my own problem understanding before asking AI for help. | Yes |`submission.md`
+| I wrote my own first plan before asking AI for help. | Yes |`submission.md`|
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes |เขียนโค้ดมาแล้ว แต่รันแล้วคำตอบยังผิดอยู่เลยให้มันช่วยดูว่าตรงไหนผิด|
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
