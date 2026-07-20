@@ -59,11 +59,11 @@ Gemini
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. | Yes |  |
+| I read the relevant workflow before using AI. | Yes |`workflows/STUDENT_WORKFLOW_WEB_CHAT.th.md`|
 | I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes |  |
-| I wrote my own problem understanding before asking AI for help. | Yes |  |
-| I wrote my own first plan before asking AI for help. | Yes |  |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes |  |
+| I wrote my own problem understanding before asking AI for help. | Yes |ใช้ AI ในการ code review แล้วก็หาจุดที่ผิดพลาด|
+| I wrote my own first plan before asking AI for help. | Yes |In submission.md|
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes |ช่วยให้ AI อธิบายวิธีการหา mid กับ minimum และ Debug code|
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
