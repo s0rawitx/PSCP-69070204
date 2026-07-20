@@ -1,4 +1,4 @@
-p=int(input())
+p=float(input())
 service=p*(10/100)
 if service<50:
     service = 50

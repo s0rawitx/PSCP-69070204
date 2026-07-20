@@ -1,42 +1,42 @@
-# Problem Solving Submission
+# บันทึกการแก้โจทย์
 
-This file must be written by the student in their own words.
+ไฟล์นี้ต้องเขียนโดยนักศึกษาด้วยคำพูดของตนเอง
 
-Use this template only for OJ problems that are marked as learning-log required.
+ใช้ template นี้เฉพาะกับโจทย์ OJ ที่ถูกระบุว่าต้องส่ง learning log เท่านั้น
 
-Do not ask AI to write this file for you. AI may help check grammar, formatting, or clarity after you have written your own content.
+ห้ามให้ AI เขียนไฟล์นี้แทนคุณ AI อาจช่วยตรวจ grammar, formatting หรือความชัดเจนได้ หลังจากที่คุณเขียนเนื้อหาของตนเองแล้ว
 
-If AI was used for this learning-log-required problem, also complete `ai_reflection.md`.
+ถ้าใช้ AI กับโจทย์ learning-log-required นี้ ต้องทำไฟล์ `ai_reflection.md` ด้วย
 
 ---
 
-## 1. OJ Information
+## 1. ข้อมูล OJ
 
-OJ problem number/title:
+หมายเลข/ชื่อโจทย์ OJ:
 
 ```text
-[LEARNING LOGS] Bill (3017)
+OJ3017 - Bill
 ```
 
-OJ submission ID, if submitted:
+OJ submission ID ถ้ามีการส่งแล้ว:
 
 ```text
 542055
 ```
 
-OJ status:
+สถานะ OJ:
 
 ```text
 Pass
 ```
 
-Independent time spent on this problem:
+เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
 ```text
-0-15 minutes
+15-30 minutes
 ```
 
-Choose one:
+เลือกหนึ่งข้อ:
 
 ```text
 0-15 minutes
@@ -51,91 +51,106 @@ Choose one:
 More than 4 weeks
 ```
 
-How to count this time:
+วิธีนับเวลา:
 
-- Count only the time you actively worked on this problem independently.
-- Start counting from when you first read the problem.
-- Do not include breaks, meals, classes, sleep, time spent on other problems, or time when you were not working on this problem.
-- If you used AI, count only the independent time before your first AI prompt.
-- If you asked a friend, TA, or instructor for help, count only the independent time before your first help request.
-- If you used both AI and human help, count only the independent time before the first outside help of any kind.
-- If you did not use AI or human help, count the time before writing this `submission.md`.
-- An estimate is acceptable, but it must be honest.
+- นับเฉพาะเวลาที่ตั้งใจทำโจทย์นี้ด้วยตนเองจริง ๆ
+- เริ่มนับตั้งแต่ตอนที่อ่านโจทย์ครั้งแรก
+- ไม่นับเวลาพัก กินข้าว เรียน นอน เวลาที่ทำโจทย์อื่น หรือเวลาที่ไม่ได้ทำโจทย์นี้
+- ถ้าใช้ AI ให้นับเฉพาะเวลาที่ทำด้วยตนเองก่อน prompt แรกที่ถาม AI
+- ถ้าถามเพื่อน TA หรือผู้สอน ให้นับเฉพาะเวลาที่ทำด้วยตนเองก่อนขอความช่วยเหลือครั้งแรก
+- ถ้าใช้ทั้ง AI และความช่วยเหลือจากคน ให้นับเฉพาะเวลาที่ทำด้วยตนเองก่อนขอความช่วยเหลือจากภายนอกครั้งแรก ไม่ว่าจะเป็น AI หรือคน
+- ถ้าไม่ได้ใช้ AI และไม่ได้ขอความช่วยเหลือจากคน ให้นับเวลาถึงก่อนเขียน `submission.md`
+- ประมาณเวลาได้ แต่ต้องซื่อสัตย์
 
 ---
 
-## 2. My Understanding
+## 2. ความเข้าใจโจทย์ของฉัน
 
-Write the problem in your own words.
+เขียนโจทย์ด้วยคำพูดของตนเอง
 
-Also explain the input, output, and important constraints.
+ให้อธิบาย input, output และ constraints สำคัญด้วย
 
-If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
+ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
 ```text
-ให้เขียนราคาของอาหารหลังรวม Service charge กับ Vat แล้ว
+โจทย์ให้คิดราคาอาหารหลังจากรวมค่า Service Charge และ Vat โดยที่ Service Charge จะมีขั้นต่ำอยู่ 50 บาทและจะคิดไม่เกิน 1000
+
+Input:
+โปรแกรมรับจำนวนค่าอาหารของลูกค้า
+
+Output:
+โปรแกรมควรพิมพ์ ราคาหลังจากคิด Service Charge และ Vat แล้ว
+
+Constraints:
+input เป็นราคาอาหารของลูกค้าอาจจะเป็นเลขทศนิยมได้
 ```
 
 ---
 
-## 3. My First Plan
+## 3. แผนแรกของฉัน
 
-Write your first plan before getting help from AI, a friend, a TA, an instructor, or before finalizing your code.
+เขียนแผนแรกก่อนรับความช่วยเหลือจาก AI เพื่อน TA ผู้สอน หรือก่อนสรุป code สุดท้าย
 
-If you used AI, write the plan you had before your first AI prompt.
+ถ้าใช้ AI ให้เขียนแผนที่มีอยู่ก่อน prompt แรกที่ถาม AI
 
-If you asked a friend, TA, or instructor for help, write the plan you had before asking for help.
+ถ้าถามเพื่อน TA หรือผู้สอน ให้เขียนแผนที่มีอยู่ก่อนถาม
 
-If you did not use AI or human help, write the plan you had before or while you started coding.
+ถ้าไม่ได้ใช้ AI และไม่ได้ขอความช่วยเหลือจากคน ให้เขียนแผนที่มีอยู่ก่อนหรือระหว่างเริ่มเขียน code
 
-This can be rough. It may be incomplete or different from your final solution.
+แผนนี้เขียนแบบคร่าว ๆ ได้ อาจยังไม่สมบูรณ์หรืออาจต่างจากวิธีสุดท้าย
 
-You may write pseudocode, a flowchart idea, or step-by-step thinking.
+สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:รับราคาอาหารลูกค้า
-Step 2:คิดค่า service charge
-Step 3:คิดค่า Vat
+Step 1: รับค่าราคาอาหาร
+Step 2: คิดหาค่า Service Charge 
+Step 3: ถ้า Service Charge น้อยกว่า 50 ให้ปรับเป็น 50 บาท
+Step 4: ถ้า Service Charge มากกว่า 1000 ให้ปรับเป็น 1000 บาท
+Step 5:นำค่า Service Charge มาบวกกับราคาอาหาร
+Step 6:นำ Service Charge มาบวกกับค่าอาหาร
+Step 7:นำค่าอาหารที่รวมกับ Service Charge แล้วไปคิดหาค่า Vat
+Step 8:นำ Vat มาคิดหาราคาสุดท้าย
+Step 9:Print ราคาสุดท้ายโดยทำให้เป็นเลขทศนิยม 2 หลัก
 ```
 
 ---
 
-## 4. My Final Approach
+## 4. วิธีสุดท้ายที่ใช้จริง
 
-Briefly explain the final algorithm or method you actually used in your submitted code.
+อธิบายสั้น ๆ ว่า algorithm หรือวิธีสุดท้ายที่ใช้จริงใน code ที่ส่งคืออะไร
 
-This section is different from Section 3:
+หัวข้อนี้ต่างจาก Section 3:
 
-- Section 3 is your first plan before AI, human help, or before the final code.
-- Section 4 is the final method used in your actual solution.
-- If your final approach is the same as your first plan, write that it is the same and briefly explain why.
+- Section 3 คือแผนแรกก่อนใช้ AI ก่อนรับความช่วยเหลือจากคน หรือก่อนเขียน code สุดท้าย
+- Section 4 คือวิธีสุดท้ายที่ใช้ใน solution จริง
+- ถ้าวิธีสุดท้ายเหมือนกับแผนแรก ให้เขียนว่าเหมือนกัน และอธิบายสั้น ๆ ว่าทำไม
 
-Do not copy AI's explanation.
+ห้ามคัดลอกคำอธิบายจาก AI
 
-Do not copy another person's explanation.
+ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-รับ input ราคาอาหารลูกค้ามา แล้วเขียนตัวแปร service เพื่อคำนวณว่า service charge จะต้องเก็บเท่าไหร่โดยในการคำนวณก็จะมี if else มาเขียนไว้ว่าถ้า servie charge น้อยกว่า 50 ต้องบังคับให้ service charge เท่ากับ 50 และถ้า service charge มากกว่า 1000 ก็ต้องบังคับให้ service charge เท่ากับ 1000 หลังจากคำนวณ service charge แล้วก็สร้างตัวแปรมาเก็บราคาหลังรวม service charge มาเพื่อที่จะเอาไปคำนวณ Vat ต่อ หลัจากคำนวณ Vat แล้วก็นำ Vat ที่ได้ไปบวกกับราคาอาหารที่รวมกับ Service charge เมื่อกี้ แล้วค่อยปริ้นราคาของราคาอันสุดท้ายเป็น 2 ทศนิยมโดยใช้ f string
+เหมือนกับแผนแรก ฉันใช้คณิตศาสตร์ในการคิดหาราคาที่รวมทั้ง Vat และ Service Charge แล้ว และใช้ F string เพื่อ print คำตอบแบบเลขทศนิยม 2 หลัก
 ```
 
 ---
 
-## 5. My Tests
+## 5. การทดสอบของฉัน
 
-Write at least 3 test cases that you tried or designed by yourself.
+เขียน test cases อย่างน้อย 3 กรณีที่ลองเองหรือออกแบบเอง
 
-Try to choose test cases that are different from each other.
+พยายามเลือก test cases ที่แตกต่างกัน
 
-For each test case, explain why you chose it.
+แต่ละ test case ให้อธิบายว่าทำไมเลือกกรณีนั้น
 
-If the input or output has many lines, write them inside the text blocks.
+ถ้า input หรือ output มีหลายบรรทัด ให้เขียนไว้ใน text blocks
 
 ### Test Case 1
 
-Why I chose this case:
+ทำไมเลือก case นี้:
 
 ```text
-ทดสอบว่า service charge บังคับได้รึยัง
+Service Charge น้อยกว่า 50 
 ```
 
 Input:
@@ -159,15 +174,15 @@ Actual output:
 Result:
 
 ```text
-Pass 
+Pass
 ```
 
 ### Test Case 2
 
-Why I chose this case:
+ทำไมเลือก case นี้:
 
 ```text
-ทดสอบ Service charge เกิน 1000
+Service Charge เกิน 1000
 ```
 
 Input:
@@ -196,10 +211,10 @@ Pass
 
 ### Test Case 3
 
-Why I chose this case:
+ทำไมเลือก case นี้:
 
 ```text
-ทดสอบ service charge ไม่น้อยกว่า 50 กับ ไม่มากกว่า 1000
+Service Charge ปกติ
 ```
 
 Input:
@@ -228,70 +243,70 @@ Pass
 
 ---
 
-## 6. AI Use
+## 6. การใช้ AI
 
-Did you use AI for this problem?
+ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
 No
 ```
 
-If yes, also complete:
+ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
 
 ```text
 ai_reflection.md
 ```
 
-If you only asked a friend, TA, or instructor and did not use AI, you do not need to complete `ai_reflection.md`.
+ถ้าถามเฉพาะเพื่อน TA หรือผู้สอน และไม่ได้ใช้ AI ไม่ต้องทำ `ai_reflection.md`
 
 ---
 
-## 7. Human Help / Collaboration
+## 7. ความช่วยเหลือจากคน / การร่วมมือ
 
-Did you ask a friend, TA, instructor, or another person for help on this problem?
+ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
 No
 ```
 
-If yes, briefly explain what kind of help you received.
+ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
 
-Allowed examples:
+ตัวอย่างที่อนุญาต:
 
-- explanation of the problem statement
-- explanation of a programming concept
-- hint about the approach
-- debugging discussion
-- test-case discussion
-- help understanding an error message
+- อธิบายความหมายของโจทย์
+- อธิบาย concept การเขียนโปรแกรม
+- ให้ hint เกี่ยวกับแนวทาง
+- คุยเรื่อง debugging
+- คุยเรื่อง test cases
+- ช่วยอธิบาย error message
 
-Not allowed:
+สิ่งที่ไม่อนุญาต:
 
-- copying another person's code
-- submitting another person's solution
-- asking another person to write the solution for you
-- using another person's OJ submission
-- asking another person to submit to the OJ for you
+- คัดลอก code ของผู้อื่น
+- ส่ง solution ของผู้อื่น
+- ขอให้ผู้อื่นเขียน solution ให้
+- ใช้ OJ submission ของผู้อื่น
+- ขอให้ผู้อื่นส่ง OJ แทน
 
-Who helped you?
-
-```text
-No one
-```
-
-What did they help with?
+ใครช่วยคุณ
 
 ```text
-Nothing
+
 ```
 
-What did you still do by yourself?
+เขาช่วยอะไร
 
 ```text
-ALl the code
+
 ```
 
-Did you copy any code from another person?
+คุณยังทำอะไรด้วยตนเอง
+
+```text
+
+```
+
+คุณคัดลอก code จากคนอื่นหรือไม่
 
 ```text
 No
@@ -299,16 +314,16 @@ No
 
 ---
 
-## 8. Student Declaration
+## 8. คำรับรองของนักศึกษา
 
-Write `Yes` for each statement.
+เขียน `Yes` ในแต่ละ statement
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. |Yes|
-| I understand my final code. |Yes|
-| I recorded the real OJ status. |Yes|
-| I did not copy AI-generated text directly into this file. |Yes|
-| I did not copy code from another person. |Yes|
-| If I received human help, I disclosed it in this file. |Yes|
-| I submitted the final code to the OJ by myself. |Yes|
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
