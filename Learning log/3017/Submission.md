@@ -194,13 +194,13 @@ Input:
 Expected output:
 
 ```text
-995412.4
+995412.44
 ```
 
 Actual output:
 
 ```text
-995412.4
+995412.44
 ```
 
 Result:
