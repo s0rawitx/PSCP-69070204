@@ -1,0 +1,1 @@
+{"name":"Local: PickThem","url":"c:\\Users\\not50\\Desktop\\PSCP-69070204\\Another things\\PickThem.py","tests":[{"id":1789190180958,"input":"[2, 2, 4, 8, 6, 4, 8, 5, 7, 9, 10]","output":"2\n2\n4\n8\n6\n4\n8\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\not50\\Desktop\\PSCP-69070204\\Another things\\PickThem.py","group":"local","local":true}
