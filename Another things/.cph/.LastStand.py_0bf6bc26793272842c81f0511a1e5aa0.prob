@@ -1,0 +1,1 @@
+{"name":"Local: LastStand","url":"c:\\Users\\not50\\Desktop\\PSCP-69070204\\Another things\\LastStand.py","tests":[{"id":1789395378348,"input":"[42,54,68,1235,549]","output":"2\n4\n8\n5\n9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\not50\\Desktop\\PSCP-69070204\\Another things\\LastStand.py","group":"local","local":true}
